@@ -95,7 +95,7 @@ class _WebViewExampleState extends State<WebViewExample> {
     return Scaffold(
       backgroundColor: Colors.green,
       body: WebView(
-        initialUrl: 'https://app.awpsclub.com/login',
+        initialUrl: 'https://app.awpsinvest.com/login',
         javascriptMode: JavascriptMode.unrestricted,
         onWebViewCreated: (WebViewController webViewController) {
           _controller.complete(webViewController);
